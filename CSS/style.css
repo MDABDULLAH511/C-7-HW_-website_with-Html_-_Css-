@@ -1,0 +1,338 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+*{
+    font-family: 'Roboto', sans-serif;
+    
+}
+header {
+
+    height: 40px;
+    margin: 10px 3%;
+    overflow: hidden;
+}
+
+.logo {
+
+    height: 35px;
+    width: 35%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+
+.logo img {
+
+    height: 100%;
+    float: left;
+}
+
+.logo h5 {
+    position: absolute;
+    bottom: 50%;
+    left: 12%;
+    transform: translate(0px, 50%);
+}
+
+.menu {
+
+    height: 40px;
+    width: 10%;
+    float: right;
+    text-align: right;
+    position: relative;
+}
+
+.menu h5 {
+
+    position: absolute;
+    right: 0%;
+    bottom: 50%;
+    transform: translate(0px, 50%);
+}
+
+.banner {
+
+    width: 90%;
+    height: 450px;
+    margin: 10px 5%;
+}
+
+.banner img {
+
+    width: 100%;
+    height: 450px;
+}
+
+.about {
+    overflow: hidden;
+
+    height: 300px;
+    width: 88%;
+    margin: 60px 6%;
+}
+
+.about_left {
+    float: left;
+    height: 300px;
+    width: 48%;
+    position: relative;
+}
+
+.about_left h2 {}
+
+.about_left p {
+
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(100px, -50px);
+}
+
+.about_right {
+    float: right;
+    width: 48%;
+    height: 300px;
+    background: bisque;
+}
+
+.about_right img {
+
+    width: 100%;
+    height: 300px;
+}
+
+.about_2 {
+
+    overflow: hidden;
+    height: 150px;
+    width: 88%;
+    margin: 70px 6%;
+}
+
+.about_2_left {
+
+    float: left;
+    height: 180px;
+    width: 48%;
+    position: relative;
+}
+
+.about_2_left h2 {}
+
+.about_2_left p {
+
+    position: absolute;
+    left: 3%;
+    top: 60px;
+}
+
+
+.about_2_right {
+
+    float: right;
+    height: 180px;
+    width: 48%;
+    position: relative;
+}
+
+.about_2_right h2 {}
+
+.about_2_right p {
+
+    position: absolute;
+    left: 3%;
+    top: 60px;
+}
+
+.service {
+
+    width: 88%;
+    height: 250px;
+    overflow: hidden;
+    margin: 0px 6%;
+}
+
+.service_lrft {
+
+    float: left;
+    width: 32%;
+}
+
+.service_lrft img {
+
+    width: 100%;
+    height: 250px;
+}
+
+
+.service_middle {
+
+    float: left;
+    width: 32%;
+    margin-left: 2%;
+}
+
+.service_middle img {
+
+    width: 100%;
+    height: 250px;
+}
+
+.service_right {
+
+    float: right;
+    width: 32%;
+}
+
+.service_right img {
+
+    width: 100%;
+    height: 250px;
+}
+
+.service_2 {
+
+    width: 88%;
+    height: 770px;
+    margin: 0px 6%;
+}
+
+.service_2_top {
+
+    height: 300px;
+    overflow: hidden;
+}
+
+.service_2_top_left {
+
+    float: left;
+    height: 300px;
+    width: 49%;
+}
+
+.service_2_top_left img {
+
+    width: 100%;
+    height: 300px;
+}
+
+.service_2_top_right {
+
+    float: right;
+    height: 300px;
+    width: 49%;
+}
+
+.service_2_top_right img {
+
+    width: 100%;
+    height: 300px;
+}
+
+.service_2_bottom {
+
+    height: 450px;
+    margin-top: 20px;
+}
+
+.service_2_bottom img {
+
+    height: 450px;
+    width: 100%;
+}
+
+.button_part {
+
+    padding: 100px 40%;
+    width: 20%;
+    text-align: center;
+}
+
+.button_part button {
+
+    font-size: 16px;
+    background: transparent;
+    padding: 10px 7%;
+    cursor: pointer;
+    border: 1px solid #161616;
+    color: #161616;
+}
+
+footer {
+
+    height: 250px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.footer_part {
+
+    overflow: hidden;
+    width: 80%;
+    margin: 0px 10%;
+}
+
+.footer_part_left {
+    float: left;
+
+    height: 250px;
+    width: 33.33%;
+}
+
+.footer_part_left h5 {
+
+    font-size: 16px;
+    color: #161616;
+    margin-bottom: 10px;
+}
+
+.footer_part_left a {
+
+    font-size: 14px;
+
+    color: #999999;
+    text-decoration: none;
+}
+
+.footer_part_middle {
+    float: left;
+
+    height: 250px;
+    width: 33.33%;
+}
+
+.footer_part_middle ul {
+
+    list-style: none;
+}
+
+.footer_part_middle ul li {
+
+    font-size: 14px;
+    color: #999999;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.footer_part_right {
+    float: right;
+
+
+    height: 250px;
+    width: 33.33%;
+}
+
+.footer_part_right ul {
+
+    list-style: none;
+}
+
+.footer_part_right ul li {
+
+    font-size: 14px;
+    color: #999999;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
